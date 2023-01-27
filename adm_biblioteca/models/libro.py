@@ -10,6 +10,11 @@ class Libro(models.Model):
     nombre = fields.Char(string='Nombre', required=True)
     descricion = fields.Text(string='Description')
       
-    autor = fields.Char('Autor', copy=False)
+    autores = fields.Char(string='Autor')
+    editores = fields.Char(string='Editores')
+    genero = fields.Char(string='Genero')
+    ano_edicion = fields.Integer('Año Edición', copy=False)
+        
+    ISBN = fields.Char('Autor', copy=False)
 
     active = fields.Boolean(string='Active', default='True')
