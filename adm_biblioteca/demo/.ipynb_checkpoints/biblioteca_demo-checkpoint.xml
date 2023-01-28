@@ -2,7 +2,7 @@
 <odoo>
     <data noupdate="1">
         <record model="biblioteca.libro" id="libro1">
-            <field name="name">Libro1</field>
+            <field name="nombre">Libro1</field>
             <field name="descripcion">descripcion1</field>
             <field name="autores">Autor 1, Autor2</field>
             <field name="editores">Editor 1</field>
@@ -11,7 +11,7 @@
             <field name="isbn">1244FD</field>
         </record>
         <record model="biblioteca.libro" id="libro2">
-            <field name="name">Libro2</field>
+            <field name="nombre">Libro2</field>
             <field name="descripcion">descripcion2</field>            
             <field name="autores">Autor 2</field>
             <field name="editores">Editor 2, Editor 3</field>
@@ -20,7 +20,7 @@
             <field name="isbn">R12244FD</field>
         </record>
         <record model="biblioteca.libro" id="libro3">
-            <field name="name">Libro3</field>
+            <field name="nombre">Libro3</field>
             <field name="descripcion">descripcion3</field>            
             <field name="autores">Autor 1, Autor2</field>
             <field name="editores">Editor 3</field>
@@ -29,7 +29,7 @@
             <field name="isbn">S1SS244FDS</field>
         </record>
         <record model="biblioteca.libro" id="libro4">
-            <field name="name">Zonas Erroneas</field>
+            <field name="nombre">Zonas Erroneas</field>
             <field name="descripcion">descripcion4</field>            
             <field name="autores">Wyen Dyer</field>
             <field name="editores">American Book</field>
@@ -38,7 +38,7 @@
             <field name="isbn">RDFA1244FD</field>
         </record>
         <record model="biblioteca.libro" id="libro5">
-            <field name="name">El Quijote</field>
+            <field name="nombre">El Quijote</field>
             <field name="descripcion">Narra las aventuras de Alonso Quijano, un hidalgo pobre que de tanto leer novelas de caballería acaba enloqueciendo y creyendo ser un caballero andante, nombrándose a sí mismo como don Quijote de la Mancha.</field>            
             <field name="autores">Miguel de Cervantes Zaavedra</field>
             <field name="editores">Editorial Española</field>
