@@ -28,5 +28,6 @@
     
     'demo': [
         'demo/biblioteca_demo.xml',
+        'demo/biblioteca_demo1.xml',
     ],  
 }

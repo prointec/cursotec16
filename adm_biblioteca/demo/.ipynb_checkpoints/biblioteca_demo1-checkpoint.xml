@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record model="biblioteca.libro" id="libro1">
+            <field name="nombre">Libro1</field>
+            <field name="descripcion">descripcion1</field>
+            <field name="autores">Autor 1, Autor2</field>
+            <field name="editores">Editor 1</field>
+            <field name="genero">Romance</field>
+            <field name="ano_edicion">1998</field>
+            <field name="isbn">1244FD</field>
+        </record>
+        <record model="biblioteca.libro" id="libro2">
+            <field name="nombre">Libro2</field>
+            <field name="descripcion">descripcion2</field>            
+            <field name="autores">Autor 2</field>
+            <field name="editores">Editor 2, Editor 3</field>
+            <field name="genero">Drama</field>
+            <field name="ano_edicion">2005</field>
+            <field name="isbn">R12244FD</field>
+        </record>
+        <record model="biblioteca.libro" id="libro3">
+            <field name="nombre">Libro3</field>
+            <field name="descripcion">descripcion3</field>            
+            <field name="autores">Autor 1, Autor2</field>
+            <field name="editores">Editor 3</field>
+            <field name="genero">Ciencia Ficcion</field>
+            <field name="ano_edicion">1951</field>
+            <field name="isbn">S1SS244FDS</field>
+        </record>
+        <record model="biblioteca.libro" id="libro4">
+            <field name="nombre">Zonas Erroneas</field>
+            <field name="descripcion">descripcion4</field>            
+            <field name="autores">Wyen Dyer</field>
+            <field name="editores">American Book</field>
+            <field name="genero">Autoayuda</field>
+            <field name="ano_edicion">2001</field>
+            <field name="isbn">RDFA1244FD</field>
+        </record>
+        <record model="biblioteca.libro" id="libro5">
+            <field name="nombre">El Quijote</field>
+            <field name="descripcion">Narra las aventuras de Alonso Quijano, un hidalgo pobre que de tanto leer novelas de caballería acaba enloqueciendo y creyendo ser un caballero andante, nombrándose a sí mismo como don Quijote de la Mancha.</field>            
+            <field name="autores">Miguel de Cervantes Zaavedra</field>
+            <field name="editores">Editorial Española</field>
+            <field name="genero">Novela</field>
+            <field name="ano_edicion">1605</field>
+            <field name="isbn">77UASF123</field>
+        </record>        
+    </data>
+</odoo>
