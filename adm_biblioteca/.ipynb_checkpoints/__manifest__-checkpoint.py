@@ -22,8 +22,8 @@
     'depends':  ['base'],
     
     'data': [
-    
-    
+        'security/biblioteca_security.xml',
+        'security/ir.model.access.csv',
     ],
     
     'demo': [
