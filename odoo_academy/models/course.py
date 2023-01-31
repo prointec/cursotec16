@@ -23,6 +23,11 @@ class Course(models.Model):
     addtional_fee = fields.Float(string='Additional Fee', default=0.00)
     total_price = fields.Float(string='Total Price', read_only=True)
     
+    session_ids = fields.One2many(comodel_name='academy.session',
+                                   inverse_name='course_id',
+                                   string='Sessions')
+    
+    
     @api.onchange('base_price','addtional_fee')
     def _onchange_total_price(self):
         if self.base_price < 0.00:
